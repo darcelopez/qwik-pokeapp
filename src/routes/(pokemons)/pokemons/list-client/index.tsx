@@ -41,7 +41,7 @@ export default component$(() => {
     });
 
     useOnDocument('scroll', $((event) => {
-      // console.log('Scroll ', event);
+      console.log('Scroll ', event);
       const maxScroll = document.body.scrollHeight;
       const currentScroll = window.scrollY + window.innerHeight;
       if (((currentScroll + 200) >= maxScroll) && (!pokemonState.isLoading)) {

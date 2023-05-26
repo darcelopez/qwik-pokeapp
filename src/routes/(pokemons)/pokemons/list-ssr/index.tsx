@@ -1,6 +1,6 @@
 import { $, component$, useComputed$, useSignal, useStore, useVisibleTask$ } from "@builder.io/qwik";
 import { DocumentHead, routeLoader$, Link, useLocation } from '@builder.io/qwik-city';
-import type { PokemonListResponse } from "~/interfaces/pokemon-list.response";
+// import type { PokemonListResponse } from "~/interfaces/pokemon-list.response";
 // import { BasicPokemonInfo } from '../../../interfaces/pokemon-list.response';
 import { SmallPokemon } from "~/interfaces";
 import { getSmallPokemons } from "~/helpers/get-pokemons";
