@@ -73,3 +73,13 @@ https://gist.github.com/Klerith/3a34500e03c09c1d3e56cec73e83f117
 ## Configuracion de ENVs
 
 Renombrar el archivo __.env.template__ a __.env__ y cambiar las variables de entorno
+
+## Express Server
+
+This app has a minimal [Express server](https://expressjs.com/) implementation. After running a full build, you can preview the build using the command:
+
+```
+npm run serve
+```
+
+Then visit [http://localhost:8080/](http://localhost:8080/)
